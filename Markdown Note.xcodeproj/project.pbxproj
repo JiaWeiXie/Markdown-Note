@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5FA4F11F5EEAE600DD6CD2 /* highlight.css in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4E91F5EEAE600DD6CD2 /* highlight.css */; };
+		AF5FA4F21F5EEAE600DD6CD2 /* jazzy.css in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4EA1F5EEAE600DD6CD2 /* jazzy.css */; };
+		AF5FA4F31F5EEAE600DD6CD2 /* jazzy.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4EC1F5EEAE600DD6CD2 /* jazzy.js */; };
+		AF5FA4F41F5EEAE600DD6CD2 /* jazzy.search.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4ED1F5EEAE600DD6CD2 /* jazzy.search.js */; };
+		AF5FA4F51F5EEAE600DD6CD2 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4EE1F5EEAE600DD6CD2 /* jquery.min.js */; };
+		AF5FA4F61F5EEAE600DD6CD2 /* lunr.min.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4EF1F5EEAE600DD6CD2 /* lunr.min.js */; };
+		AF5FA4F71F5EEAE600DD6CD2 /* typeahead.jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4F01F5EEAE600DD6CD2 /* typeahead.jquery.js */; };
+		AF5FA4F91F5F012F00DD6CD2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4F81F5F012F00DD6CD2 /* index.html */; };
+		AF5FA4FB1F5F06E800DD6CD2 /* highlight.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA4FA1F5F06E800DD6CD2 /* highlight.js */; };
+		AF5FA5BD1F5F073700DD6CD2 /* languages in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA5BB1F5F073700DD6CD2 /* languages */; };
+		AF5FA5BE1F5F073700DD6CD2 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA5BC1F5F073700DD6CD2 /* styles */; };
+		AF5FA5C01F5F089500DD6CD2 /* github-markdown.css in Resources */ = {isa = PBXBuildFile; fileRef = AF5FA5BF1F5F089500DD6CD2 /* github-markdown.css */; };
+		AFC212081F5C7EEC00C094F4 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211E01F5C7EEC00C094F4 /* blocks.c */; };
+		AFC212091F5C7EEC00C094F4 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211E11F5C7EEC00C094F4 /* buffer.c */; };
+		AFC2120A1F5C7EEC00C094F4 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = AFC211E31F5C7EEC00C094F4 /* case_fold_switch.inc */; };
+		AFC2120B1F5C7EEC00C094F4 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = AFC211E51F5C7EEC00C094F4 /* CMakeLists.txt */; };
+		AFC2120C1F5C7EEC00C094F4 /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211E61F5C7EEC00C094F4 /* cmark.c */; };
+		AFC2120D1F5C7EEC00C094F4 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211E81F5C7EEC00C094F4 /* cmark_ctype.c */; };
+		AFC2120E1F5C7EEC00C094F4 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211EC1F5C7EEC00C094F4 /* commonmark.c */; };
+		AFC2120F1F5C7EEC00C094F4 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = AFC211EE1F5C7EEC00C094F4 /* entities.inc */; };
+		AFC212101F5C7EEC00C094F4 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F01F5C7EEC00C094F4 /* houdini_href_e.c */; };
+		AFC212111F5C7EEC00C094F4 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F11F5C7EEC00C094F4 /* houdini_html_e.c */; };
+		AFC212121F5C7EEC00C094F4 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F21F5C7EEC00C094F4 /* houdini_html_u.c */; };
+		AFC212131F5C7EEC00C094F4 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F31F5C7EEC00C094F4 /* html.c */; };
+		AFC212141F5C7EEC00C094F4 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F61F5C7EEC00C094F4 /* inlines.c */; };
+		AFC212151F5C7EEC00C094F4 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211F81F5C7EEC00C094F4 /* iterator.c */; };
+		AFC212161F5C7EEC00C094F4 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211FA1F5C7EEC00C094F4 /* latex.c */; };
+		AFC212171F5C7EEC00C094F4 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211FB1F5C7EEC00C094F4 /* man.c */; };
+		AFC212181F5C7EEC00C094F4 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211FC1F5C7EEC00C094F4 /* node.c */; };
+		AFC212191F5C7EEC00C094F4 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC211FF1F5C7EEC00C094F4 /* references.c */; };
+		AFC2121A1F5C7EEC00C094F4 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC212011F5C7EEC00C094F4 /* render.c */; };
+		AFC2121B1F5C7EEC00C094F4 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC212031F5C7EEC00C094F4 /* scanners.c */; };
+		AFC2121C1F5C7EEC00C094F4 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC212051F5C7EEC00C094F4 /* utf8.c */; };
+		AFC2121D1F5C7EEC00C094F4 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC212071F5C7EEC00C094F4 /* xml.c */; };
+		AFC212201F5C7F0300C094F4 /* KituraMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2121F1F5C7F0300C094F4 /* KituraMarkdown.swift */; };
+		AFC212291F5CCFAF00C094F4 /* TemplateEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC212281F5CCFAF00C094F4 /* TemplateEngine.swift */; };
 		AFC688B61F5662BD006AA6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC688B51F5662BD006AA6F8 /* AppDelegate.swift */; };
 		AFC688BB1F5662BD006AA6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC688B91F5662BD006AA6F8 /* Main.storyboard */; };
 		AFC688BD1F5662BD006AA6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC688BC1F5662BD006AA6F8 /* Assets.xcassets */; };
@@ -14,11 +50,64 @@
 		AFC688CC1F5665C6006AA6F8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC688CA1F5665C6006AA6F8 /* ItemCell.swift */; };
 		AFC688CD1F5665C6006AA6F8 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC688CB1F5665C6006AA6F8 /* ItemCell.xib */; };
 		AFC688CF1F5665E5006AA6F8 /* MainList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC688CE1F5665E5006AA6F8 /* MainList.swift */; };
-		AFC688D31F569F30006AA6F8 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC688D11F569F30006AA6F8 /* Realm.framework */; };
-		AFC688D41F569F30006AA6F8 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC688D21F569F30006AA6F8 /* RealmSwift.framework */; };
+		AFC688F91F56AC90006AA6F8 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC688F81F56AC90006AA6F8 /* MarkdownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF5FA4E91F5EEAE600DD6CD2 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		AF5FA4EA1F5EEAE600DD6CD2 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		AF5FA4EC1F5EEAE600DD6CD2 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		AF5FA4ED1F5EEAE600DD6CD2 /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
+		AF5FA4EE1F5EEAE600DD6CD2 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		AF5FA4EF1F5EEAE600DD6CD2 /* lunr.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lunr.min.js; sourceTree = "<group>"; };
+		AF5FA4F01F5EEAE600DD6CD2 /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
+		AF5FA4F81F5F012F00DD6CD2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = MarkdownRes/index.html; sourceTree = "<group>"; };
+		AF5FA4FA1F5F06E800DD6CD2 /* highlight.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.js; sourceTree = "<group>"; };
+		AF5FA5BB1F5F073700DD6CD2 /* languages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = languages; sourceTree = "<group>"; };
+		AF5FA5BC1F5F073700DD6CD2 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
+		AF5FA5BF1F5F089500DD6CD2 /* github-markdown.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-markdown.css"; sourceTree = "<group>"; };
+		AFC211E01F5C7EEC00C094F4 /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
+		AFC211E11F5C7EEC00C094F4 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		AFC211E21F5C7EEC00C094F4 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		AFC211E31F5C7EEC00C094F4 /* case_fold_switch.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = case_fold_switch.inc; sourceTree = "<group>"; };
+		AFC211E41F5C7EEC00C094F4 /* chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
+		AFC211E51F5C7EEC00C094F4 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AFC211E61F5C7EEC00C094F4 /* cmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmark.c; sourceTree = "<group>"; };
+		AFC211E71F5C7EEC00C094F4 /* cmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmark.h; sourceTree = "<group>"; };
+		AFC211E81F5C7EEC00C094F4 /* cmark_ctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmark_ctype.c; sourceTree = "<group>"; };
+		AFC211E91F5C7EEC00C094F4 /* cmark_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmark_ctype.h; sourceTree = "<group>"; };
+		AFC211EA1F5C7EEC00C094F4 /* cmark_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmark_export.h; sourceTree = "<group>"; };
+		AFC211EB1F5C7EEC00C094F4 /* cmark_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmark_version.h; sourceTree = "<group>"; };
+		AFC211EC1F5C7EEC00C094F4 /* commonmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commonmark.c; sourceTree = "<group>"; };
+		AFC211ED1F5C7EEC00C094F4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		AFC211EE1F5C7EEC00C094F4 /* entities.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = entities.inc; sourceTree = "<group>"; };
+		AFC211EF1F5C7EEC00C094F4 /* houdini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = houdini.h; sourceTree = "<group>"; };
+		AFC211F01F5C7EEC00C094F4 /* houdini_href_e.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = houdini_href_e.c; sourceTree = "<group>"; };
+		AFC211F11F5C7EEC00C094F4 /* houdini_html_e.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = houdini_html_e.c; sourceTree = "<group>"; };
+		AFC211F21F5C7EEC00C094F4 /* houdini_html_u.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = houdini_html_u.c; sourceTree = "<group>"; };
+		AFC211F31F5C7EEC00C094F4 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html.c; sourceTree = "<group>"; };
+		AFC211F51F5C7EEC00C094F4 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		AFC211F61F5C7EEC00C094F4 /* inlines.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inlines.c; sourceTree = "<group>"; };
+		AFC211F71F5C7EEC00C094F4 /* inlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inlines.h; sourceTree = "<group>"; };
+		AFC211F81F5C7EEC00C094F4 /* iterator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iterator.c; sourceTree = "<group>"; };
+		AFC211F91F5C7EEC00C094F4 /* iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iterator.h; sourceTree = "<group>"; };
+		AFC211FA1F5C7EEC00C094F4 /* latex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = latex.c; sourceTree = "<group>"; };
+		AFC211FB1F5C7EEC00C094F4 /* man.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = man.c; sourceTree = "<group>"; };
+		AFC211FC1F5C7EEC00C094F4 /* node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		AFC211FD1F5C7EEC00C094F4 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		AFC211FE1F5C7EEC00C094F4 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		AFC211FF1F5C7EEC00C094F4 /* references.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = references.c; sourceTree = "<group>"; };
+		AFC212001F5C7EEC00C094F4 /* references.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = references.h; sourceTree = "<group>"; };
+		AFC212011F5C7EEC00C094F4 /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = render.c; sourceTree = "<group>"; };
+		AFC212021F5C7EEC00C094F4 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		AFC212031F5C7EEC00C094F4 /* scanners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanners.c; sourceTree = "<group>"; };
+		AFC212041F5C7EEC00C094F4 /* scanners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scanners.h; sourceTree = "<group>"; };
+		AFC212051F5C7EEC00C094F4 /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8.c; sourceTree = "<group>"; };
+		AFC212061F5C7EEC00C094F4 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		AFC212071F5C7EEC00C094F4 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xml.c; sourceTree = "<group>"; };
+		AFC2121F1F5C7F0300C094F4 /* KituraMarkdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KituraMarkdown.swift; sourceTree = "<group>"; };
+		AFC212281F5CCFAF00C094F4 /* TemplateEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateEngine.swift; sourceTree = "<group>"; };
+		AFC2122B1F5CD20000C094F4 /* Markdown Note-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Markdown Note-Bridging-Header.h"; sourceTree = "<group>"; };
 		AFC688B21F5662BD006AA6F8 /* Markdown Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Markdown Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC688B51F5662BD006AA6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFC688BA1F5662BD006AA6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +119,7 @@
 		AFC688CE1F5665E5006AA6F8 /* MainList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainList.swift; path = MainList/MainList.swift; sourceTree = "<group>"; };
 		AFC688D11F569F30006AA6F8 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		AFC688D21F569F30006AA6F8 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		AFC688F81F56AC90006AA6F8 /* MarkdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkdownView.swift; path = MarkdownView/MarkdownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,14 +127,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC688D31F569F30006AA6F8 /* Realm.framework in Frameworks */,
-				AFC688D41F569F30006AA6F8 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF5FA4E71F5EEAD200DD6CD2 /* WebRes */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA4F81F5F012F00DD6CD2 /* index.html */,
+				AF5FA4E81F5EEAE600DD6CD2 /* css */,
+				AF5FA4EB1F5EEAE600DD6CD2 /* js */,
+			);
+			name = WebRes;
+			sourceTree = "<group>";
+		};
+		AF5FA4E81F5EEAE600DD6CD2 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA5BF1F5F089500DD6CD2 /* github-markdown.css */,
+				AF5FA4E91F5EEAE600DD6CD2 /* highlight.css */,
+				AF5FA4EA1F5EEAE600DD6CD2 /* jazzy.css */,
+			);
+			name = css;
+			path = MarkdownRes/css;
+			sourceTree = "<group>";
+		};
+		AF5FA4EB1F5EEAE600DD6CD2 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FA5BB1F5F073700DD6CD2 /* languages */,
+				AF5FA5BC1F5F073700DD6CD2 /* styles */,
+				AF5FA4FA1F5F06E800DD6CD2 /* highlight.js */,
+				AF5FA4EC1F5EEAE600DD6CD2 /* jazzy.js */,
+				AF5FA4ED1F5EEAE600DD6CD2 /* jazzy.search.js */,
+				AF5FA4EE1F5EEAE600DD6CD2 /* jquery.min.js */,
+				AF5FA4EF1F5EEAE600DD6CD2 /* lunr.min.js */,
+				AF5FA4F01F5EEAE600DD6CD2 /* typeahead.jquery.js */,
+			);
+			name = js;
+			path = MarkdownRes/js;
+			sourceTree = "<group>";
+		};
+		AFC211DF1F5C7EEC00C094F4 /* Ccmark */ = {
+			isa = PBXGroup;
+			children = (
+				AFC211E01F5C7EEC00C094F4 /* blocks.c */,
+				AFC211E11F5C7EEC00C094F4 /* buffer.c */,
+				AFC211E21F5C7EEC00C094F4 /* buffer.h */,
+				AFC211E31F5C7EEC00C094F4 /* case_fold_switch.inc */,
+				AFC211E41F5C7EEC00C094F4 /* chunk.h */,
+				AFC211E51F5C7EEC00C094F4 /* CMakeLists.txt */,
+				AFC211E61F5C7EEC00C094F4 /* cmark.c */,
+				AFC211E71F5C7EEC00C094F4 /* cmark.h */,
+				AFC211E81F5C7EEC00C094F4 /* cmark_ctype.c */,
+				AFC211E91F5C7EEC00C094F4 /* cmark_ctype.h */,
+				AFC211EA1F5C7EEC00C094F4 /* cmark_export.h */,
+				AFC211EB1F5C7EEC00C094F4 /* cmark_version.h */,
+				AFC211EC1F5C7EEC00C094F4 /* commonmark.c */,
+				AFC211ED1F5C7EEC00C094F4 /* config.h */,
+				AFC211EE1F5C7EEC00C094F4 /* entities.inc */,
+				AFC211EF1F5C7EEC00C094F4 /* houdini.h */,
+				AFC211F01F5C7EEC00C094F4 /* houdini_href_e.c */,
+				AFC211F11F5C7EEC00C094F4 /* houdini_html_e.c */,
+				AFC211F21F5C7EEC00C094F4 /* houdini_html_u.c */,
+				AFC211F31F5C7EEC00C094F4 /* html.c */,
+				AFC211F41F5C7EEC00C094F4 /* include */,
+				AFC211F61F5C7EEC00C094F4 /* inlines.c */,
+				AFC211F71F5C7EEC00C094F4 /* inlines.h */,
+				AFC211F81F5C7EEC00C094F4 /* iterator.c */,
+				AFC211F91F5C7EEC00C094F4 /* iterator.h */,
+				AFC211FA1F5C7EEC00C094F4 /* latex.c */,
+				AFC211FB1F5C7EEC00C094F4 /* man.c */,
+				AFC211FC1F5C7EEC00C094F4 /* node.c */,
+				AFC211FD1F5C7EEC00C094F4 /* node.h */,
+				AFC211FE1F5C7EEC00C094F4 /* parser.h */,
+				AFC211FF1F5C7EEC00C094F4 /* references.c */,
+				AFC212001F5C7EEC00C094F4 /* references.h */,
+				AFC212011F5C7EEC00C094F4 /* render.c */,
+				AFC212021F5C7EEC00C094F4 /* render.h */,
+				AFC212031F5C7EEC00C094F4 /* scanners.c */,
+				AFC212041F5C7EEC00C094F4 /* scanners.h */,
+				AFC212051F5C7EEC00C094F4 /* utf8.c */,
+				AFC212061F5C7EEC00C094F4 /* utf8.h */,
+				AFC212071F5C7EEC00C094F4 /* xml.c */,
+			);
+			name = Ccmark;
+			path = Sources/Ccmark;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFC211F41F5C7EEC00C094F4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AFC211F51F5C7EEC00C094F4 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AFC2121E1F5C7F0300C094F4 /* KituraMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2121F1F5C7F0300C094F4 /* KituraMarkdown.swift */,
+			);
+			name = KituraMarkdown;
+			path = Sources/KituraMarkdown;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFC212271F5CCFAF00C094F4 /* KituraTemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AFC212281F5CCFAF00C094F4 /* TemplateEngine.swift */,
+			);
+			name = KituraTemplateEngine;
+			path = Sources/KituraTemplateEngine;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFC2122C1F5D584900C094F4 /* IBM-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AFC212271F5CCFAF00C094F4 /* KituraTemplateEngine */,
+				AFC2121E1F5C7F0300C094F4 /* KituraMarkdown */,
+				AFC211DF1F5C7EEC00C094F4 /* Ccmark */,
+			);
+			name = "IBM-Framework";
+			sourceTree = "<group>";
+		};
 		AFC688A91F5662BD006AA6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -65,12 +273,16 @@
 		AFC688B41F5662BD006AA6F8 /* Markdown Note */ = {
 			isa = PBXGroup;
 			children = (
+				AFC2122B1F5CD20000C094F4 /* Markdown Note-Bridging-Header.h */,
+				AF5FA4E71F5EEAD200DD6CD2 /* WebRes */,
+				AFC2122C1F5D584900C094F4 /* IBM-Framework */,
 				AFC688B51F5662BD006AA6F8 /* AppDelegate.swift */,
 				AFC688B91F5662BD006AA6F8 /* Main.storyboard */,
 				AFC688BC1F5662BD006AA6F8 /* Assets.xcassets */,
 				AFC688BE1F5662BD006AA6F8 /* LaunchScreen.storyboard */,
 				AFC688C11F5662BD006AA6F8 /* Info.plist */,
 				AFC688C91F56636F006AA6F8 /* MainList */,
+				AFC688FF1F56AC96006AA6F8 /* MarkdownView */,
 			);
 			path = "Markdown Note";
 			sourceTree = "<group>";
@@ -92,6 +304,14 @@
 				AFC688D21F569F30006AA6F8 /* RealmSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC688FF1F56AC96006AA6F8 /* MarkdownView */ = {
+			isa = PBXGroup;
+			children = (
+				AFC688F81F56AC90006AA6F8 /* MarkdownView.swift */,
+			);
+			name = MarkdownView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +348,7 @@
 					AFC688B11F5662BD006AA6F8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7K333GRG33;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,10 +376,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5FA4F21F5EEAE600DD6CD2 /* jazzy.css in Resources */,
+				AF5FA5C01F5F089500DD6CD2 /* github-markdown.css in Resources */,
+				AF5FA4F71F5EEAE600DD6CD2 /* typeahead.jquery.js in Resources */,
+				AF5FA4F61F5EEAE600DD6CD2 /* lunr.min.js in Resources */,
+				AF5FA4F91F5F012F00DD6CD2 /* index.html in Resources */,
+				AF5FA4F41F5EEAE600DD6CD2 /* jazzy.search.js in Resources */,
+				AF5FA4F51F5EEAE600DD6CD2 /* jquery.min.js in Resources */,
+				AF5FA4F11F5EEAE600DD6CD2 /* highlight.css in Resources */,
 				AFC688CD1F5665C6006AA6F8 /* ItemCell.xib in Resources */,
+				AF5FA4F31F5EEAE600DD6CD2 /* jazzy.js in Resources */,
+				AF5FA4FB1F5F06E800DD6CD2 /* highlight.js in Resources */,
+				AF5FA5BE1F5F073700DD6CD2 /* styles in Resources */,
 				AFC688C01F5662BD006AA6F8 /* LaunchScreen.storyboard in Resources */,
+				AF5FA5BD1F5F073700DD6CD2 /* languages in Resources */,
 				AFC688BD1F5662BD006AA6F8 /* Assets.xcassets in Resources */,
 				AFC688BB1F5662BD006AA6F8 /* Main.storyboard in Resources */,
+				AFC2120B1F5C7EEC00C094F4 /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +405,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 			);
 			outputPaths = (
 			);
@@ -187,9 +419,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC2120D1F5C7EEC00C094F4 /* cmark_ctype.c in Sources */,
+				AFC2120F1F5C7EEC00C094F4 /* entities.inc in Sources */,
+				AFC2120A1F5C7EEC00C094F4 /* case_fold_switch.inc in Sources */,
 				AFC688B61F5662BD006AA6F8 /* AppDelegate.swift in Sources */,
+				AFC212091F5C7EEC00C094F4 /* buffer.c in Sources */,
+				AFC212181F5C7EEC00C094F4 /* node.c in Sources */,
+				AFC2121C1F5C7EEC00C094F4 /* utf8.c in Sources */,
+				AFC212131F5C7EEC00C094F4 /* html.c in Sources */,
+				AFC2121A1F5C7EEC00C094F4 /* render.c in Sources */,
+				AFC212101F5C7EEC00C094F4 /* houdini_href_e.c in Sources */,
+				AFC212291F5CCFAF00C094F4 /* TemplateEngine.swift in Sources */,
+				AFC2121D1F5C7EEC00C094F4 /* xml.c in Sources */,
+				AFC212111F5C7EEC00C094F4 /* houdini_html_e.c in Sources */,
+				AFC212201F5C7F0300C094F4 /* KituraMarkdown.swift in Sources */,
 				AFC688CF1F5665E5006AA6F8 /* MainList.swift in Sources */,
+				AFC212081F5C7EEC00C094F4 /* blocks.c in Sources */,
 				AFC688CC1F5665C6006AA6F8 /* ItemCell.swift in Sources */,
+				AFC2120E1F5C7EEC00C094F4 /* commonmark.c in Sources */,
+				AFC212161F5C7EEC00C094F4 /* latex.c in Sources */,
+				AFC212141F5C7EEC00C094F4 /* inlines.c in Sources */,
+				AFC212191F5C7EEC00C094F4 /* references.c in Sources */,
+				AFC212171F5C7EEC00C094F4 /* man.c in Sources */,
+				AFC212151F5C7EEC00C094F4 /* iterator.c in Sources */,
+				AFC212121F5C7EEC00C094F4 /* houdini_html_u.c in Sources */,
+				AFC2120C1F5C7EEC00C094F4 /* cmark.c in Sources */,
+				AFC2121B1F5C7EEC00C094F4 /* scanners.c in Sources */,
+				AFC688F91F56AC90006AA6F8 /* MarkdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +474,7 @@
 		AFC688C21F5662BD006AA6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -261,6 +517,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Markdown Note/Markdown Note-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -269,7 +526,7 @@
 		AFC688C31F5662BD006AA6F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -303,7 +560,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Markdown Note/Markdown Note-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -314,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K333GRG33;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,9 +581,14 @@
 				);
 				INFOPLIST_FILE = "Markdown Note/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)//Sources/Ccmark/include";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "BIRC.Markdown-Note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Markdown Note/Markdown Note-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Ccmark/include";
 			};
 			name = Debug;
 		};
@@ -331,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K333GRG33;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,9 +604,13 @@
 				);
 				INFOPLIST_FILE = "Markdown Note/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)//Sources/Ccmark/include";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "BIRC.Markdown-Note";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Markdown Note/Markdown Note-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/Ccmark/include";
 			};
 			name = Release;
 		};

@@ -10,11 +10,17 @@
 
 Blazing fast Markdown rendering in Swift, built upon [cmark](https://github.com/jgm/cmark).
 
-Is your app using it? [Let me know!](mailto:rob@desideratalabs.co)
+Is your app using it? [Let me know!](mailto:rob@robphillips.me)
 
 ### Installation
 
-Quickly install using [CocoaPods](https://cocoapods.org): 
+First, you'll need to install [cmake](https://cmake.org/download/) which builds the underlying static library.
+
+Once installed, add a symlink to use cmake from the command line:
+
+>sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
+
+Then you can easily install using [CocoaPods](https://cocoapods.org): 
 
 ```ruby
 pod 'Down'
@@ -26,13 +32,11 @@ Or [Carthage](https://github.com/Carthage/Carthage):
 github "iwasrobbed/Down"
 ```
 
-Or manually install:
+You'll need to build the static library using:
 
-1. Clone this repository
-2. Build the Down project
-3. Add the resulting framework file to your project
-4. ?
-5. Profit
+```shell
+echo `pwd`\nsed -i '' 's/include <\\(cmark.*\\)>/include \"\\1\"/' src/cmark.h\nmkdir -p build; cd build && cmake -G Xcode ..
+```
 
 ### Robust Performance
 
@@ -68,6 +72,9 @@ try? downView?.update(markdownString:  "## [Google](https://google.com)") {
 Meta example of rendering this README:
 
 ![Example gif](Images/ohhai.gif)
+
+##### Prevent zoom
+The default implementation of the `DownView` allows for zooming in the rendered content. If you want to disable this, then you’ll need to instantiate the `DownView` with a custom bundle where the `viewport` in `index.html` has been assigned `user-scalable=no`. More info can be found [here](https://github.com/iwasrobbed/Down/pull/30).
 
 ### Parsing API
 

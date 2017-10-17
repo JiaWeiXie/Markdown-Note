@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1AD10AE33CB2EE507381A2C42E0AB756CBC69F0F+++388B640",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1AD10AE33CB2EE507381A2C42E0AB756CBC69F0F+++388B640" : 9223372036854775807,
+    "9A76F17C6068412484158A754CBD274391008322+++056BE47" : 9223372036854775807,
+    "AE7FD09FEC8B285AB86A7422A06B8D893FA72957+++A8073DC" : 9223372036854775807,
+    "95438028B10BBB846574013D29F154A00556A9D1+++23DCFE3" : 9223372036854775807,
+    "95438028B10BBB846574013D29F154A00556A9D1+++3971A06" : 9223372036854775807,
+    "95438028B10BBB846574013D29F154A00556A9D1+++436CEAC" : 9223372036854775807,
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++06F4AA6" : 9223372036854775807,
+    "1A81AC7E588BE86E760603555BCE76FB0C611997+++1D51F71" : 9223372036854775807,
+    "960DCF543335492D3B9E5F6D4B8E1AF53AF06834+++9144CC5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FC60B66-1D5B-4BDD-9DA0-72B473253827",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1AD10AE33CB2EE507381A2C42E0AB756CBC69F0F+++388B640" : "Markdown-Note\/",
+    "9A76F17C6068412484158A754CBD274391008322+++056BE47" : "Markdown-Note\/CocoaMarkdown\/External\/Ono\/",
+    "AE7FD09FEC8B285AB86A7422A06B8D893FA72957+++A8073DC" : "Markdown-Note\/CocoaMarkdown\/",
+    "95438028B10BBB846574013D29F154A00556A9D1+++23DCFE3" : "Markdown-Note\/CocoaMarkdown\/External\/Nimble\/",
+    "95438028B10BBB846574013D29F154A00556A9D1+++3971A06" : "Markdown-Note\/CocoaMarkdown\/External\/Nimble\/",
+    "95438028B10BBB846574013D29F154A00556A9D1+++436CEAC" : "Markdown-Note\/CocoaMarkdown\/External\/Quick\/Externals\/Nimble\/",
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++06F4AA6" : "Markdown-Note\/CocoaMarkdown\/External\/Quick\/",
+    "1A81AC7E588BE86E760603555BCE76FB0C611997+++1D51F71" : "Markdown-Note\/Markdown%20Note\/Kitura-Markdown-master\/.build\/checkouts\/Kitura-TemplateEngine.git--5059963620657797085\/",
+    "960DCF543335492D3B9E5F6D4B8E1AF53AF06834+++9144CC5" : "Markdown-Note\/CocoaMarkdown\/External\/cmark\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Markdown Note",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Markdown Note.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/xiejiawei\/Downloads\/Kitura-Markdown-master\/.build\/repositories\/Kitura-TemplateEngine.git--5059963620657797085",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A81AC7E588BE86E760603555BCE76FB0C611997+++1D51F71"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JiaWeiXie\/Markdown-Note.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AD10AE33CB2EE507381A2C42E0AB756CBC69F0F+++388B640"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1+++23DCFE3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1+++3971A06"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95438028B10BBB846574013D29F154A00556A9D1+++436CEAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jgm\/cmark.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "960DCF543335492D3B9E5F6D4B8E1AF53AF06834+++9144CC5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattt\/Ono.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A76F17C6068412484158A754CBD274391008322+++056BE47"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/indragiek\/CocoaMarkdown.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE7FD09FEC8B285AB86A7422A06B8D893FA72957+++A8073DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Quick",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++06F4AA6"
+    }
+  ]
+}

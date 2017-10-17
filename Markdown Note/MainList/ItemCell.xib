@@ -36,7 +36,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Do Something">
                                         <attributes>
-                                            <font key="NSFont" size="18" name="Avenir-Book"/>
+                                            <font key="NSFont" size="16" name="Avenir-Book"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -52,7 +52,7 @@
                                     <fragment content="2017-08-30">
                                         <attributes>
                                             <color key="NSColor" red="0.31145533919334412" green="0.76683443784713745" blue="0.98990553617477417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Avenir-Book"/>
+                                            <font key="NSFont" size="14" name="Avenir-Book"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
